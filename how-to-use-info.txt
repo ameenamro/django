@@ -4,7 +4,7 @@ this link for more information about how to use dgango :
 
 https://docs.djangoproject.com/en/4.2/intro/tutorial01/
 
-
+*********************************************
 
 1-(Object-relational mapper) Deﬁne your data models entirely in Python. 
 You get a rich, dynamic database-access API for free — but you can still
