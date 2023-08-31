@@ -1,0 +1,92 @@
+Step 1 - Open Powershell
+1) Firstly, you need to open Powershell. There are two ways in which you can do that. Either search for Powershell in the Windows search box or open the Run dialog box with (WIN+R). Once the dialog box is open, type Powershell and click OK.
+
+Once the Powershell window is open, you will verify Python installation in the next section.
+
+Step 2 - Verify Python Installation
+Before installing Django, you need to make sure that Python is installed on your system.
+
+Type the following command to verify the installation:
+
+python -V
+You will get the below output:
+
+Output
+
+PS C:\Users\Username> python -V
+Python 3.9.7
+At the time of writing this article, I have Python version 3.9.7 and yours may be different but the output will confirm if you have Python installed or not.
+
+Step 3 - Upgrade Pip  
+Pip comes by default with Python but generally with an old version. Use the following command to upgrade pip:
+
+python -m pip install --upgrade pip
+Step 4 - Create Project Directory
+Now, create a project directory in which you will keep the Django repository. Name the project based on your choice.
+
+1) cd into your Desktop directory:
+
+cd Desktop
+2) Use the following command to create a directory:
+
+mkdir demo_project
+3) Now, enter the newly-created directory using the below command:
+
+cd demo_project
+Step 5 - Create a Virtual Environment
+1) In this step, you will create a virtual environment for you project. With the help of a virtual environment, you can create an isolated environment that won't affect other Python projects.
+
+If you are not using a virtual environment, all your projects will be using the same Django version installed globally. It can lead your projects to fail when there is an update in Django with breaking changes.
+
+Use the following command to create a virtual environment:
+
+python -m venv venv
+The above command will create a directory called venv inside your project directory.
+
+Confirm if the venv directory has been created using the below command:
+
+ls
+Step 6 - Activate the Virtual Environment
+1) Now, you will activate the virtual environment in your directory.
+
+Run the following command:
+
+venv\Scripts\activate
+Once, it is activated you will see venv at the beginning:
+
+(venv) PS C:\Users\Stanley\Desktop\django_project>
+Step 7 - Install Django on Windows
+1) You will be installing Django using pip, execute the following command:
+
+pip install django
+The above command will install the latest version of Django.
+
+2) In case you want to install a different Django version, mention the version as follows:
+
+pip install django==3.1
+3) Now, verify if the installation has been done successfully:
+
+django-admin --version
+4) You will get an output like below:
+
+Output 
+
+PS C:\users\stanley\Desktop\django_project> django-admin --version
+3.9.7
+Step 8 - Create a Django Project
+1) You can create your first Django project using the following command:
+
+django-admin startproject test_project
+2) Move to the test_prohect:
+
+cd test_project
+3) Type the following command to see the contents of the project directory:
+
+ls test_project
+Step 9 - Run the Development Server
+1) Once the project is created, start the Django development server:
+
+python manage.py runserver
+2) Now, you can access your project at http://127.0.0.1:8000/.
+
+3) If you want to stop the server, press CTRL+C  and to deactivate the virtual environment type deactivate.
