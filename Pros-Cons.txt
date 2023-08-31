@@ -1,0 +1,73 @@
+Pros and Cons of django
+
+pros of django:
+
+1. Speed and scalability
+
+- The whole idea of Django is to allow it to build and scale up projects incredibly quickly, which is one of the main reasons why it’s so popular in tech startups.
+
+- It skips a lot of the manual steps that would normally be involved in building something that can slow web developers down, allowing them to focus on the bigger picture.
+
+2. Community support
+
+- Django framework’s open-source nature and popularity has another major advantage—just how much help is out there.
+
+- Having been around for over sixteen years (half the life of the Python language itself), and with such a broad range of applications, it should come as no surprise how thriving the Django community is.
+
+- If you’re new to Django and looking to find the community, the official website is the best place to start. Here you’ll find their RSS feeds, mailing lists, and channels for you to get up to speed and where to look.
+
+- While it may not sound that useful, anyone who’s been stuck on a piece of code knows how valuable it is to be able to simply search online and find out how someone solved the issue before them, or to check possible solutions and improvements.
+
+3. Documentation
+
+- To put it simply, Django boasts one of the best sets of documentation among the open-source frameworks out there.
+
+- This is because it’s precise and exact, as well as well-organized for web developers just starting out in Python. Most solutions are also ready-to-use, so you can employ them quickly.
+
+- The makers themselves have created an incredibly useful guide to the documentation, with different sections depending on how you want to approach the language.
+
+- Whether you’re looking for help making your code run faster, or for specifics on the framework’s security features, or how to create forms in Django, you’ll find what you’re looking for here—or who to ask.
+
+4. Security
+
+- This is a major advantage of Django, which can often be overlooked. Any backend framework working with accounts and data needs to be able to protect that of its users.
+
+- For this reason, Django has a user authentication system, and includes Clickjacking, XSS, CSRF, and SQL injection protection, as well as HTTPS. The best thing about Django’s security features is that all of it comes already set up, so you don’t have to spend any time fiddling with it.
+
+5. Versatility
+
+- The scalability benefits of the Django framework don’t just focus externally—it extends to what you’re building, too.
+
+- It could be a content management system or an entire social network, and Django will be able to handle it. You can ask it to carry out some machine learning or complicated data analysis, and it’s flexible enough to handle it
+
+------
+
+Cons of Django:
+
+1. Not good for simpler projects
+
+- Django is a high-level framework, and so it lends itself more to complicated features.
+
+- Handily, if you are looking for the right tool for smaller, easier projects that have potential to grow rapidly, then the micro-framework Flask is the one for web developers. If you’re interested in learning more about it, we’ve written a full beginner’s guide to the Flask microframework.
+
+2. Can lead to slow websites
+
+- For all the speed at which you can build things with the Django framework, sometimes it can result in your website running quite slowly.
+
+- It’s important to note that this isn’t due to anything particular to the Python language or Django itself, more to the amount of resources you’re accessing with the framework. The more databases and so on that you’re sending requests to, the slower the performance will become.
+
+- All this means is that while it’s fun to be able to scale quickly and change direction at the drop of a hat, it’s important to keep one eye on the overall architecture of the project. It could result in speed problems further down the line.
+
+- That said, this can only start becoming apparent at a truly large scale for your app, and the wealth of Django documentation and thriving community will provide you with the resources to solve these performance issues.
+
+3. You need to know everything in order to work it
+
+- A problem with this can be that Django is too vast at times, and requires you to know the plan of the whole structure before you can actually start building it.
+
+- That said, the wide range of support resources and community can make this easier, as there is guidance and documentation to follow.
+
+4. Lack of conventions
+
+- A coding convention is a group of guiding principles to follow when using a web framework—a rulebook of sorts.
+
+- Whereas Rails has “Convention over Configuration”, Django doesn’t use any conventions, which can put some programmers off, and lead to slower progress at times.
