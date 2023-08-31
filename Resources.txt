@@ -1,0 +1,18 @@
+- a file with your research main points about django   
+   https://www.djangoproject.com
+
+- a file with your research main points about how to install 
+
+   https://vegastack.com/tutorials/how-to-install-django-on-windows/
+
+
+
+a file with your research main points about how to use django
+https://www.djangoproject.com/start/
+https://docs.djangoproject.com/en/4.2/intro/tutorial01/
+
+a file with your research main points about pros and cons of django
+
+https://careerfoundry.com/en/blog/web-development/django-framework-guide/
+
+
